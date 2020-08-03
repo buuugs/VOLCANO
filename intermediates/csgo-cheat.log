@@ -1,0 +1,33 @@
+﻿  Using triplet "x86-windows" from "C:\Users\Buuugs\Desktop\vcpkg-master\installed\x86-windows\"
+cl : wiersz polecenia warning D9025: przesłanianie "/sdl-" przez " /GS-"
+cl : wiersz polecenia warning D9025: przesłanianie "/std:c++14" przez " /std:c++latest"
+  skinchanger.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(725,1): warning C4530: Użyta obsługa wyjątków języka C++, ale semantyka rozwinięć nie jest włączona. Określ /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(700): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::filesystem::_Find_file_handle *std::vector<std::filesystem::_Find_file_handle,std::allocator<std::filesystem::_Find_file_handle>>::_Emplace_reallocate<_Ty>(std::filesystem::_Find_file_handle *const ,_Ty &&)” funkcji szablon
+          with
+          [
+              _Ty=std::filesystem::_Find_file_handle
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(708): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::filesystem::_Find_file_handle *std::vector<std::filesystem::_Find_file_handle,std::allocator<std::filesystem::_Find_file_handle>>::_Emplace_reallocate<_Ty>(std::filesystem::_Find_file_handle *const ,_Ty &&)” funkcji szablon
+          with
+          [
+              _Ty=std::filesystem::_Find_file_handle
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(721): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „_Ty &std::vector<_Ty,std::allocator<_Ty>>::emplace_back<std::filesystem::_Find_file_handle>(std::filesystem::_Find_file_handle &&)” funkcji szablon
+          with
+          [
+              _Ty=std::filesystem::_Find_file_handle
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(720): message : podczas kompilowania funkcji składowej „void std::vector<std::filesystem::_Find_file_handle,std::allocator<std::filesystem::_Find_file_handle>>::push_back(_Ty &&)” klasy klasa szablon
+          with
+          [
+              _Ty=std::filesystem::_Find_file_handle
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\filesystem(2786): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „void std::vector<std::filesystem::_Find_file_handle,std::allocator<std::filesystem::_Find_file_handle>>::push_back(_Ty &&)” funkcji szablon
+          with
+          [
+              _Ty=std::filesystem::_Find_file_handle
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\filesystem(2704): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::vector<std::filesystem::_Find_file_handle,std::allocator<std::filesystem::_Find_file_handle>>” klasy klasa szablon
+     Trwa tworzenie biblioteki .\bin\satean.lib i obiektu .\bin\satean.exp
+  csgo-cheat.vcxproj -> C:\Users\Buuugs\Desktop\VOLCANO\plejg.cc\.\bin\satean.dll
